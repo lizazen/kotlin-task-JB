@@ -1,0 +1,29 @@
+1. Explain how an integrated development environment (IDE) differs from a collection of command-line tools. What are some common features that an IDE provides? Why do programmers use IDEs anyway?
+-----------
+Command-line tools work directly with a shell, so they should be manually configured taking into account, for example, tools compatibility.
+It can require to have a deep knowledge of specific commands and scripting.
+IDE is an application that combines development tools all-in-one, has a graphic interface, and automate repetitive tasks.
+It includes functionality as syntax highlighting and auto-completion, integrated debugging, build and compile shortcuts (with easy access to errors/logs),
+testing frameworks, and in addition allows customization like involving plugins and extensions.
+Therefore, IDE makes programming more efficient, illustrative, and high-quality, and creates a smooth user experience, that is why developer prefer to use IDEs.
+==============
+
+2. What purpose(s) do types serve in a programming language? What are some common types in PLs (ex. from the languages that you frequently use)?
+Explain the difference between static and dynamic typing. Why, in your opinion, many new languages are statically typed, and older dynamic languages are adding static type checkers/extensions?
+-------------
+Types help to keep data consistent and organized, so variable of specific kind can go through only specific operation(s).
+This allows to catch type errors already during the compilation and before runtime.
+Common types are integer, string, boolean, array, object, etc.
+Static typing means that type is set at compile time (e.g. in Java);
+dynamic typing checks type at runtime and defines it dynamically, multiple times if needed (e.g. in JavaScript).
+In simple words, having static types is more safe and creates more reliable code by capturing errors earlier.
+
+===============
+3. What problems does object-oriented programming try to solve? Is it always better to use OOP instead of imperative/functional?
+Can you give a counterexample (ex. when functional is a better approach)?
+--------------
+OOP helps organize complex code to make it easier to manage, change, and reuse code and data.
+It groups related data and actions into objects and uses, e.g. inheritance (sharing features between classes) and encapsulation (keeping data secure inside objects).
+This is useful, for example, when you have several or more types of entities, processes, and actions.
+Although functional programming does not have this advantage, it has its own - it allows operating with data faster, in parallel, and without relying on application state.
+Its pure functions don't directly change data and can be run in parallel that give you a quicker result. This is good for any data processing.

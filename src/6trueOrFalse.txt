@@ -1,0 +1,8 @@
+// Which of the following statements are correct:
+
+a. List<Int> is a subtype of List<Int?>? – false. List<Int?> can have null value, List<Int> cannot.
+b. List<Int?> is a subtype of List<Int>? – false. Same as a.
+c. List<Int> is a subtype of MutableList<Int> – false. List<Int> does not allow modifications, MutableList<Int> - allows.
+d. MutableList<Int?> is a subtype of List<Int?> – true. MutableList<Int?> can do the same as List<Int?>, but in addition allows modifications
+e. MutableList<Int> is a subtype of MutableList<Int>? – true. A type is a subtype of itself
+f. MutableList<Int> is a subtype of MutableList<Int?> – false. Same as a.
